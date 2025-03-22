@@ -1,0 +1,18 @@
+/* Cuadro animado - estilo a la clase cuadro */
+.cuadro {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: relative;
+    animation: mover 3s infinite alternate ease-in-out;
+}
+
+/* Animación del cuadro */
+@keyframes mover {
+    from {
+        left: 0px;
+    }
+    to {
+        left: 300px;
+    }
+}
