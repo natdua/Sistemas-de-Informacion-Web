@@ -1,0 +1,22 @@
+/* Estilos generales */
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 50px;
+}
+
+/* Botón animado - Estilo a la clase .boton */
+.boton {
+    background-color: green;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.5s ease-in-out;
+}
+
+/* Cambio de color al pasar el cursor */
+.boton:hover {
+    background-color: red;
+}

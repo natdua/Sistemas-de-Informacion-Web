@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 20px;
+}
+
+/* Imagen rotatoria, estilo de la clase rotar */
+.rotar {
+    display: block;
+    margin: auto;
+    animation: girar 6s linear infinite;
+    transform-origin: center; /* Hace que la imagen gire en su propio centro */
+}
+
+/* Definición de la animación */
+@keyframes girar {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,37 @@
+/* Estilos del contenido global */
+
+body {
+            font-family: Arial, sans-serif;
+	    margin: 10;
+            padding: 10px;
+            background-color: #040000;
+	    h1 {
+            color: white;
+	    font-size: 30px;
+            text-align: center;
+            }
+
+        }
+/* Estilos del titulo */
+
+
+
+/* Estilos del artículo */
+        article {
+            background-color: #e6f7ff;
+            margin: 20px auto;
+            padding: 20px;
+            width: 80%;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        article h1 {/*Estilo para el título del artículo*/
+            font-size: 32px;
+            color: #003366;
+        }
+
+        article p {/*Estilo para el párrafo del artículo*/
+            font-size: 18px;
+	    color: black;}
+
