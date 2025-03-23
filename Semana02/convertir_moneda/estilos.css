@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+#contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /*prueba*/
+    border: 1px solid black;
+    background-color:lightgreen;
+    padding: 10px;
+    
+}
+
