@@ -1,0 +1,31 @@
+.container {
+    background: white;
+    padding: 20px;
+    width: 300px;
+    margin: auto;
+    border: 2px solid #ccc;
+}
+
+input {
+    display: block;
+    width: 90%;
+    padding: 8px;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+
+
+
+#mensaje {
+    font-size: 18px;
+    color: lightslategray;
+    margin-top: 15px;
+}
